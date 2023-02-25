@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-3xl: 64px;
+    --fs-2xl: 48px;
+    --fs-xl: 36px;
+    --fs-lg: 24px;
+    --fs-md: 20px;
+    --fs-sm: 18px;
+    --fs-ss: 13px;
+}
+
+/* font_size */
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+.Poppins {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.roboto {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.clr_white {
+    color: #ffff;
+}
+
+.clr_red {
+    color: #F4241E;
+}
+
+.clr_black {
+    color: black;
+}
+
+.bg_red {
+    background-color: #F4241E;
+}
+
+.bg_yellow {
+    background-color: #F6E300;
+}
+
+.bg_little_yellow {
+    background-color: #FFF03F;
+}
+
+/* navbar */
+:hover.hoverhome {
+    color: #F4241E;
+}
+
+:hover.hoverconnect {
+    background-color: #F4241E;
+    color: #fff;
+}
+
+.style_connect {
+    padding: 11px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.h_50 {
+    height: 30px;
+    width: 80px;
+}
+
+.menuitem {
+    width: 40px;
+    height: 7px;
+    border-radius: 22px;
+    background-color: black;
+}
+
+.menu {
+    top: 20px;
+    right: 20px;
+}
+
+/* div */
+.style_discover {
+    background: #F4241E;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.w_80 {
+    width: 80%;
+}
+
+/* burger */
+.burger_1 {
+    left: 92px;
+    top: 15px;
+}
+
+.burger_2 {
+    left: 350px;
+    top: 25px;
+}
+
+.burger_3 {
+    bottom: 30px;
+    left: 300px;
+}
+
+.burger_4 {
+    bottom: 20px;
+    left: 40px;
+}
+
+.burger_5 {
+    right: 380px;
+    top: 60px;
+}
+
+.burger_6 {
+    right: 5px;
+    top: 0px;
+}
+
+.burger_7 {
+    right: 0px;
+    bottom: 100px;
+}
+
+.burger_8 {
+    right: 220px;
+    bottom: 20px;
+}
+
+.time_img_1 {
+    top: 0;
+    left: 250px;
+}
+.time_img_2 {
+    left: -10px;
+    top: 244px;
+}
+.time_img_3 {
+    right: 271px;
+}
+.time_img_4 {
+    top: 0;
+    right: 0;
+}
+.time_img_5 {
+    bottom: 270px;
+    left: 270px;
+}
+.time_img_6 {
+    left: -30px;
+    bottom: 3px;
+}
+.time_img_7 {
+    bottom: 0;
+    right: 265px;
+}
+.time_img_8 {
+    right: 0;
+    bottom: 75px;
+}
+
+/* accordion */
+.accordion-button:not(.colapsed) {
+    background-color: #FFF03F;
+    border-color: #FFF03F;
+    color: #000;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.opacity_0_8 {
+    opacity: 0.8;
+}
+
+/* footer */
+.w_60 {
+    width: 60%;
+}
+
+/* timeline */
+/* The actual circle (the vertical ruler) */
+.circle {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* The actual circle (the vertical ruler) */
+.circle::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(239, 22, 22);
+    top: 22px;
+    bottom: -25px;
+    left: 50%;
+    margin-left: -3px;
+}
+
+/* Container around _box_ */
+.white_box {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circles on the circle */
+.white_box::after {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    right: -16px;
+    background-color: white;
+
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left0 {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
+    left: 50%;
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -18px;
+}
+
+/* The actual _box_ */
+._box_ {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+/* Media queries - Responsive circle on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .circle::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .white_box {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .white_box::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after {
+        left: 14px;
+    }
+
+    .right::after {
+        left: 14px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+
+    .white_box::after {
+        left: 16px;
+    }
+}
+
+/* media */
+@media (min-width:1200px) {
+    .min_w_866 {
+        width: 866px;
+    }
+}
+
+@media (max-width:992px) {
+    nav ul {
+        position: fixed;
+        top: 60px;
+        left: -100%;
+        background-color: #F6E300;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        z-index: 3;
+    }
+
+    #check:checked~.left {
+        left: 0;
+    }
+
+    .w_80_lg {
+        width: 80%;
+    }
+
+    .line_h {
+        line-height: 2;
+    }
+}
